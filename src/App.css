@@ -17,8 +17,9 @@
   pointer-events: none;
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 900px) {
   .App {
+    backgroundsize: 700px;
   }
 }
 

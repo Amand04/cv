@@ -15,6 +15,7 @@ function App() {
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "1900px",
+        backgroundPosition: "center",
 
         width: "100%",
       }}
