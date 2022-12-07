@@ -9,7 +9,7 @@ export default function ButtonFormation() {
   };
 
   return (
-    <div>
+    <div className="button_items">
       <button className="button" onClick={handleClick}>
         Ma formation
       </button>

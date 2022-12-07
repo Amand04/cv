@@ -1,15 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
 body {
-  margin: 0;
-  font-family: Lobster Two;
-  font-family: "Love Ya Like A Sister", cursive;
-  font-family: "Zen Dots", cursive;
-  color: #fa03a8;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {

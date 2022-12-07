@@ -8,7 +8,7 @@ export default function ButtonProject() {
   };
 
   return (
-    <div>
+    <div className="button_items">
       <button className="button" onClick={handleClick}>
         Mes projets
       </button>
