@@ -5,11 +5,9 @@ export default function Header() {
   return (
     <div className="Header">
       <Card className="Header_card">
-        <p>
-          <p>Créatrice de sites internet</p>
-          <p>Développeuse Web</p>
-          <p>Amandine DROMARD</p>
-        </p>
+        <p className="header_text">Créatrice de sites internet</p>
+        <p className="header_text">Développeuse Web</p>
+        <p className="header_text">Amandine DROMARD</p>
       </Card>
     </div>
   );
