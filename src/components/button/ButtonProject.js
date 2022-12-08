@@ -13,12 +13,6 @@ export default function ButtonProject() {
         Mes projets
       </button>
 
-      {isShown && (
-        <div>
-          <h2>Mes Projets</h2>
-        </div>
-      )}
-
       {/* 👇️ show component on click */}
       {isShown && <SeeProject />}
     </div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 import SeeExperience from "../text/SeeExperience";
 
 export default function ButtonExperience() {
@@ -10,16 +9,9 @@ export default function ButtonExperience() {
 
   return (
     <div className="button_items">
-      <Button className="button" onClick={handleClick}>
+      <button className="button" onClick={handleClick}>
         Mon expérience
-      </Button>
-
-      {/* 👇️ show elements on click */}
-      {isShown && (
-        <div>
-          <h2>Mon expérience</h2>
-        </div>
-      )}
+      </button>
 
       {/* 👇️ show component on click */}
       {isShown && <SeeExperience />}

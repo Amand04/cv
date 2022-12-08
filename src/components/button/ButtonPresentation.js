@@ -14,13 +14,6 @@ export default function ButtonPresentation() {
         Mon profil
       </button>
 
-      {/* 👇️ show elements on click */}
-      {isShown && (
-        <div>
-          <h2>Mon profil</h2>
-        </div>
-      )}
-
       {/* 👇️ show component on click */}
       {isShown && <SeePresentation />}
     </div>

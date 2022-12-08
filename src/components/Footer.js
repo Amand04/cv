@@ -14,6 +14,8 @@ export default function Footer() {
       <a href="https://github.com/Amand04" className="icons_footer">
         <FiGithub />
       </a>
+      <p>amandinejeanjules@free.fr</p>
+      <p>06 40 65 54 30</p>
       <p>Tous droits reservés | 2022</p>
     </div>
   );

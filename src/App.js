@@ -15,16 +15,17 @@ function App() {
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "1900px",
-        backgroundPosition: "center",
-
+        backgroundPosition: "top",
         width: "100%",
       }}
     >
       <Header />
-      <ButtonPresentation />
-      <ButtonFormation />
-      <ButtonExperience />
-      <ButtonProject />
+      <div className="div_button">
+        <ButtonPresentation />
+        <ButtonFormation />
+        <ButtonExperience />
+        <ButtonProject />
+      </div>
       <Footer />
     </div>
   );

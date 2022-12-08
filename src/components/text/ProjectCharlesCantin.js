@@ -13,20 +13,20 @@ import {
 export default function ProjectCharlesCantin() {
   return (
     <div className="icons_project_a">
-      <a
-        href="https://charles-cantin-photograph.netlify.app/"
-        className="icons_project_a"
-      >
-        Site internet Web et mobile d'un photographe fictif, Charles Cantin
+      <p>
         <SiJavascript className="icons_project_js" />
         <SiEleventy className="icons_project_sf" />
         <SiForestry className="icons_project_sf" />
-        <SiNetlify className="icons_project" />
-        <SiNetlify className="icons_project_sf" />
+        <SiNetlify className="icons_project_php" />
         <FiGithub className="icons_project_sf" />
-        <img src={charles} alt="project" className="img_app" />
-        <img src={charles2} alt="project" className="img_app" />
-        <img src={charles3} alt="project" className="img_app" />
+      </p>
+      <a href="https://charles-cantin-photograph.netlify.app/" className="Link">
+        Site internet Web et mobile d'un photographe fictif, Charles Cantin
+        <div className="img_div">
+          <img src={charles} alt="project" className="img_app" />
+          <img src={charles2} alt="project" className="img_app" />
+          <img src={charles3} alt="project" className="img_app" />
+        </div>
       </a>
     </div>
   );

@@ -9,15 +9,19 @@ import { FiGithub } from "react-icons/fi";
 export default function ProjectSpy() {
   return (
     <div className="icons_project_a">
-      <a href="https://spy22.herokuapp.com/" className="icons_project_a">
-        Application Web et mobile d'une Agence fictive d'espionnage
+      <p>
         <FaSymfony className="icons_project_sf" />
         <SiPhp className="icons_project_php" />
         <DiHeroku className="icons_project_heroku" />
         <FiGithub className="icons_project_sf" />
-        <img src={spy} alt="project" className="img_app" />
-        <img src={spy2} alt="project" className="img_app" />
-        <img src={spy3} alt="project" className="img_app" />
+      </p>
+      <a href="https://spy22.herokuapp.com/" className="Link">
+        Application Web et mobile d'une Agence fictive d'espionnage
+        <div className="img_div">
+          <img src={spy} alt="project" className="img_app" />
+          <img src={spy2} alt="project" className="img_app" />
+          <img src={spy3} alt="project" className="img_app" />
+        </div>
       </a>
     </div>
   );
