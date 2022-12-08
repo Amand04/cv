@@ -11,7 +11,7 @@ export default function ButtonFormation() {
   return (
     <div className="button_items">
       <button className="button" onClick={handleClick}>
-        Ma formation
+        Ce que je peux vous apporter
       </button>
 
       {/* 👇️ show component on click */}

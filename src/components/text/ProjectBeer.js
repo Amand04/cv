@@ -3,7 +3,7 @@ import beer2 from "../../images/list_beer.jpg";
 import beer3 from "../../images/detail_beer.jpg";
 import { FaReact } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript, SiNetlify } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
 
 export default function ProjectApi() {
@@ -13,6 +13,7 @@ export default function ProjectApi() {
         <SiJavascript className="icons_project_js" />
         <TbApi className="icons_project" />
         <FaReact className="icons_project" />
+        <SiNetlify className="icons_project_php" />
         <FiGithub className="icons_project_sf" />
       </p>
       <a href="https://fake-beer.netlify.app/" className="Link">

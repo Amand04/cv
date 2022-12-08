@@ -3,6 +3,7 @@ import fitness from "../../images/login_fitness.jpg";
 import fitness2 from "../../images/accueil_fitness.jpg";
 import fitness3 from "../../images/users_fitness.jpg";
 import video from "../../images/demo_fitness1.mp4";
+import video2 from "../../images/demo_fitness2.mp4";
 import { FaSymfony } from "react-icons/fa";
 import { SiJquery, SiPhp } from "react-icons/si";
 import { DiHeroku } from "react-icons/di";
@@ -28,15 +29,26 @@ export default function ProjectFitness() {
           <img src={fitness3} alt="project" className="img_app" />
         </div>
       </a>
-      <Player
-        playsInline
-        fluid={false}
-        width={300}
-        height={150}
-        className="video"
-      >
-        <source src={video} className="video_item" />
-      </Player>
+      <div className="img_app">
+        <Player
+          playsInline
+          fluid={false}
+          width={300}
+          height={150}
+          className="video"
+        >
+          <source src={video} className="video_item" type="video/mp4" />
+        </Player>
+        <Player
+          playsInline
+          fluid={false}
+          width={300}
+          height={150}
+          className="video"
+        >
+          <source src={video2} className="video_item" type="video/mp4" />
+        </Player>
+      </div>
     </div>
   );
 }

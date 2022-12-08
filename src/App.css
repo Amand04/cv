@@ -21,6 +21,8 @@
 
 .Header {
   color: #fcfcfb;
+  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke-color: rgb(177, 90, 199);
 }
 .Header_card {
   display: block;
@@ -53,14 +55,13 @@
 .PresentationText {
   width: 850px;
   height: 275px;
-  border: #fa03a8 5px solid;
   margin: 10px;
   background-color: aqua;
 }
 
 .Presentation {
-  width: 90%;
-  height: 80%;
+  width: auto;
+  height: auto;
   font-size: 18px;
   align-items: center;
   margin: 1rem;
@@ -72,10 +73,19 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+#profil {
+  width: auto;
+  height: auto;
+  padding: 25px;
+}
+
 .button {
   width: 330px;
   height: 100px;
   color: rgb(252, 253, 253);
+  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke-color: rgb(177, 90, 199);
+
   border-radius: 15px;
   margin: 0.5rem;
   font-family: "Zen Dots", cursive;
@@ -91,11 +101,19 @@
 .div_button {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .button:hover {
   backdrop-filter: blur(0px);
+}
+
+.button_site {
+  width: 220px;
+  height: 60px;
+  background-color: #1d9791;
+  color: #fcfcfb;
+  border: 0px;
 }
 
 .Words {
@@ -117,6 +135,9 @@
 
 .icons_footer {
   color: #fffdfe;
+  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke-color: rgb(177, 90, 199);
+
   margin: 10px;
 }
 .icons_footer:hover {
@@ -125,33 +146,44 @@
 
 .icons_project {
   color: #1fa1ec;
-  margin-left: 5px;
+  margin: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 .icons_project_js {
   color: #f1ee15;
-  margin-left: 10px;
+  margin: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 .icons_project_sf {
   color: #fcfcfb;
-  margin-left: 10px;
+  margin: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 .icons_project_php {
   color: #4798c7;
-  margin-left: 10px;
+  margin: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 .icons_project_jquery {
   color: #4798c7;
-  margin-left: 10px;
+  margin: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 .icons_project_a {
   color: #fcfcfb;
   text-decoration: none;
-  margin: 25px;
+  margin: 5px;
+  padding: 15px;
   background: rgba(231, 226, 236, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5px);
@@ -162,12 +194,15 @@
 
 .icons_project_heroku {
   color: #931be2;
-  margin-left: 10px;
+  margin: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 .img_app {
+  height: 600px;
   margin: 2rem;
-  width: 255px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 16px;
@@ -182,6 +217,7 @@
 .video {
   display: flex;
   flex-wrap: wrap;
+  margin: 5px;
 }
 
 .video_item {
