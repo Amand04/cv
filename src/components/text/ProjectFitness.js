@@ -10,7 +10,6 @@ import { DiHeroku } from "react-icons/di";
 import { FiGithub } from "react-icons/fi";
 import { Player } from "video-react";
 import { Link } from "react-router-dom";
-import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function ProjectFitness() {
   return (

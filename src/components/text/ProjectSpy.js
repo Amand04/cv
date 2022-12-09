@@ -5,7 +5,6 @@ import { FaArrowRight, FaHome, FaSymfony } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
 import { DiHeroku } from "react-icons/di";
 import { FiGithub } from "react-icons/fi";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export default function ProjectSpy() {

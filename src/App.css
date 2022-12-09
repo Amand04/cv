@@ -84,9 +84,6 @@
   text-decoration: none;
 }
 
-.Link_play {
-}
-
 .button:hover {
   backdrop-filter: blur(0px);
 }

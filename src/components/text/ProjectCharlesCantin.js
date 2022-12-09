@@ -9,7 +9,6 @@ import {
   SiNetlify,
   SiJavascript,
 } from "react-icons/si";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaArrowRight, FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 

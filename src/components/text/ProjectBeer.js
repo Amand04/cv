@@ -5,7 +5,6 @@ import { FaArrowRight, FaHome, FaReact } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
 import { SiJavascript, SiNetlify } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export default function ProjectApi() {

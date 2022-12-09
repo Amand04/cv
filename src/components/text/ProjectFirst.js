@@ -2,7 +2,6 @@ import first from "../../images/ecran_first.jpg";
 
 import { SiJavascript, SiNetlify } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaArrowRight, FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
