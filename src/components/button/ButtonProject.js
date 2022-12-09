@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import SeeProject from "../text/SeeProject";
+import React from "react";
+import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import sound from "../../images/sound.jpg";
 
-export default function ButtonProject() {
-  const [isShown, setIsShown] = useState(false);
-  const handleClick = (e) => {
-    setIsShown((current) => !current);
-  };
-
+const ButtonProject = () => {
   return (
-    <div className="button_items">
-      <button className="button" onClick={handleClick}>
-        Mes projets
-      </button>
-
-      {/* 👇️ show component on click */}
-      {isShown && <SeeProject />}
-    </div>
+    <Link to={"/projects"} className="Link">
+      <Card className="button">
+        <Card.Img variant="top" src={sound} />
+        <Card.Body>
+          <Card.Title>Mes projets</Card.Title>
+          <Card.Text></Card.Text>
+          Php, Symfony, JS...
+        </Card.Body>
+      </Card>
+    </Link>
   );
-}
+};
+export default ButtonProject;

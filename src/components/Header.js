@@ -7,7 +7,7 @@ export default function Header() {
       <Card className="Header_card">
         <p className="header_text">Créatrice de sites internet</p>
         <p className="header_text">Développeuse Web</p>
-        <p className="header_text">Amandine DROMARD</p>
+        <p className="header_text_name">Amandine DROMARD</p>
       </Card>
     </div>
   );
