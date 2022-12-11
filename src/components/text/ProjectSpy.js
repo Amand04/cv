@@ -1,7 +1,7 @@
 import spy from "../../images/login_spy.jpg";
 import spy2 from "../../images/list_spy.jpg";
 import spy3 from "../../images/form_spy.jpg";
-import { FaArrowRight, FaHome, FaSymfony } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaSymfony } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
 import { DiHeroku } from "react-icons/di";
 import { FiGithub } from "react-icons/fi";
@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 export default function ProjectSpy() {
   return (
     <div className="icons_project_a">
-      <Link to={"/"}>
-        <FaHome id="home_link" />
+      <Link to={"/projects"}>
+      <FaArrowLeft id="home_link" />
       </Link>
       <p>
         <FaSymfony className="icons_project_sf" />
@@ -33,4 +33,4 @@ export default function ProjectSpy() {
       </a>
     </div>
   );
-}
+};

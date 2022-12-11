@@ -2,7 +2,7 @@ import React from "react";
 import fitness from "../../images/login_fitness.jpg";
 import fitness2 from "../../images/accueil_fitness.jpg";
 import fitness3 from "../../images/users_fitness.jpg";
-import { FaArrowRight, FaHome, FaSymfony } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaSymfony } from "react-icons/fa";
 import { SiJquery, SiPhp } from "react-icons/si";
 import { DiHeroku } from "react-icons/di";
 import { FiGithub } from "react-icons/fi";
@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 export default function ProjectFitness() {
   return (
     <div className="icons_project_a">
-      <Link to={"/"}>
-        <FaHome id="home_link" />
+      <Link to={"/projects"}>
+        <FaArrowLeft id="home_link" />
       </Link>
       <p>
         <FaSymfony className="icons_project_sf" />

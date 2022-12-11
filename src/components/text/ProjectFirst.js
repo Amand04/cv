@@ -2,14 +2,14 @@ import first from "../../images/ecran_first.jpg";
 
 import { SiJavascript, SiNetlify } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
-import { FaArrowRight, FaHome } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function ProjectFirst() {
   return (
     <div className="icons_project_a">
-      <Link to={"/"}>
-        <FaHome id="home_link" />
+      <Link to={"/projects"}>
+      <FaArrowLeft id="home_link" />
       </Link>
       <p>
         <SiJavascript className="icons_project_js" />

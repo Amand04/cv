@@ -1,17 +1,17 @@
 import beer from "../../images/accueil_beer.jpg";
 import beer2 from "../../images/list_beer.jpg";
 import beer3 from "../../images/detail_beer.jpg";
-import { FaArrowRight, FaHome, FaReact } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaReact } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
 import { SiJavascript, SiNetlify } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-export default function ProjectApi() {
+export default function ProjectBeer() {
   return (
     <div className="icons_project_a">
-      <Link to={"/"}>
-        <FaHome id="home_link" />
+      <Link to={"/projects"}>
+      <FaArrowLeft id="home_link" />
       </Link>
       <p>
         <SiJavascript className="icons_project_js" />

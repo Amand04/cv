@@ -9,14 +9,14 @@ import {
   SiNetlify,
   SiJavascript,
 } from "react-icons/si";
-import { FaArrowRight, FaHome } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function ProjectCharlesCantin() {
   return (
     <div className="icons_project_a">
-      <Link to={"/"}>
-        <FaHome id="home_link" />
+      <Link to={"/projects"}>
+      <FaArrowLeft id="home_link" />
       </Link>
       <p>
         <SiJavascript className="icons_project_js" />
