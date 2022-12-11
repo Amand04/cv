@@ -2,8 +2,6 @@ import React from "react";
 import fitness from "../../images/login_fitness.jpg";
 import fitness2 from "../../images/accueil_fitness.jpg";
 import fitness3 from "../../images/users_fitness.jpg";
-import video from "../../images/demo_fitness1.mp4";
-import video2 from "../../images/demo_fitness2.mp4";
 import { FaArrowRight, FaHome, FaSymfony } from "react-icons/fa";
 import { SiJquery, SiPhp } from "react-icons/si";
 import { DiHeroku } from "react-icons/di";
