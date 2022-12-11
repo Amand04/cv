@@ -10,10 +10,12 @@ import { Link } from "react-router-dom";
 
 export default function ProjectFitness() {
   return (
+    <>
+    <Link to={"/projects"}>
+    <FaArrowLeft id="home_link" />
+  </Link>
+
     <div className="icons_project_a">
-      <Link to={"/projects"}>
-        <FaArrowLeft id="home_link" />
-      </Link>
       <p>
         <FaSymfony className="icons_project_sf" />
         <SiPhp className="icons_project_php" />
@@ -35,5 +37,6 @@ export default function ProjectFitness() {
         <FaArrowRight id="site_link" />
       </a>
     </div>
+    </>
   );
 }
