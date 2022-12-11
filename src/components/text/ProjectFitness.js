@@ -33,28 +33,6 @@ export default function ProjectFitness() {
         <img src={fitness2} alt="project" className="img_app" />
         <img src={fitness3} alt="project" className="img_app" />
       </div>
-      <div className="img_div">
-        <div className="img_app">
-          <Player
-            playsInline
-            fluid={false}
-            width={300}
-            height={150}
-            className="video"
-          >
-            <source src={video} className="video_item" type="video/mp4" />
-          </Player>
-          <Player
-            playsInline
-            fluid={false}
-            width={300}
-            height={150}
-            className="video"
-          >
-            <source src={video2} className="video_item" type="video/mp4" />
-          </Player>
-        </div>
-      </div>
       <p className="p_seeAplication">Voir l'application</p>
       <a href="https://fitnesscl.herokuapp.com/">
         <FaArrowRight id="site_link" />
