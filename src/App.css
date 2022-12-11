@@ -203,23 +203,31 @@
 
 .img_app {
   height: auto;
-  margin: 2rem;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  width:300px;
+  margin: 5px;
   border-radius: 16px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .img_div {
   display: flex;
   flex-wrap: wrap;
+  width: auto;
+  justify-content: space-around;
+
 }
 
 .video {
-  display: flex;
-  flex-wrap: wrap;
   margin: 5px;
+}
+
+.video_item {
+}
+
+.p_seeAplication {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
 
 @media screen and (max-width: 700px) {
@@ -248,5 +256,9 @@
     margin: 20px;
     width: auto;
     height: auto;
+  }
+
+  .video {
+    width: 5px;
   }
 }

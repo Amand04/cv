@@ -16,11 +16,13 @@ export default function ProjectFirst() {
         <SiNetlify className="icons_project" />
         <FiGithub className="icons_project_sf" />
       </p>
+      <p className="p_seeAplication">
       Ma première application Web mobile jeu de dés version enfant
+      </p>
       <div className="img_div">
         <img src={first} alt="project" className="img_app" />
       </div>
-      <p>Voir l'application</p>
+      <p className="p_seeAplication">Voir l'application</p>
       <a href="https://elegant-jeu-de-des.netlify.app/" className="Link">
         <FaArrowRight id="site_link" />
       </a>

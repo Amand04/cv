@@ -25,13 +25,15 @@ export default function ProjectCharlesCantin() {
         <SiNetlify className="icons_project_php" />
         <FiGithub className="icons_project_sf" />
       </p>
+      <p className="p_seeAplication">
       Site internet Web et mobile d'un photographe fictif, Charles Cantin
+      </p>
       <div className="img_div">
         <img src={charles} alt="project" className="img_app" />
         <img src={charles2} alt="project" className="img_app" />
         <img src={charles3} alt="project" className="img_app" />
       </div>
-      <p>Voir l'application</p>
+      <p className="p_seeAplication">Voir l'application</p>
       <a href="https://charles-cantin-photograph.netlify.app/" className="Link">
         <FaArrowRight id="site_link" />
       </a>

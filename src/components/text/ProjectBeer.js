@@ -20,13 +20,15 @@ export default function ProjectApi() {
         <SiNetlify className="icons_project_php" />
         <FiGithub className="icons_project_sf" />
       </p>
+      <p className="p_seeAplication">
       Application Web et Web mobile avec requêtes d'API
+      </p>
       <div className="img_div">
         <img src={beer} alt="project" className="img_app" />
         <img src={beer2} alt="project" className="img_app" />
         <img src={beer3} alt="project" className="img_app" />
       </div>
-      <p>Voir l'application</p>
+      <p className="p_seeAplication">Voir l'application</p>
       <a href="https://fake-beer.netlify.app/" className="Link">
         <FaArrowRight id="site_link" />
       </a>

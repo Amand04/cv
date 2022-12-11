@@ -24,8 +24,10 @@ export default function ProjectFitness() {
         <DiHeroku className="icons_project_heroku" />
         <FiGithub className="icons_project_sf" />
       </p>
+      <p className="p_seeAplication">
       Application Web et mobile de gestion de droits des franchisés pour une
       marque de salles de sport
+      </p>
       <div className="img_div">
         <img src={fitness} alt="project" className="img_app" />
         <img src={fitness2} alt="project" className="img_app" />
@@ -53,7 +55,7 @@ export default function ProjectFitness() {
           </Player>
         </div>
       </div>
-      <p>Voir l'application</p>
+      <p className="p_seeAplication">Voir l'application</p>
       <a href="https://fitnesscl.herokuapp.com/">
         <FaArrowRight id="site_link" />
       </a>
