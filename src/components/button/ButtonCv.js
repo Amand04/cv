@@ -1,20 +1,18 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import first from "../../images/ecran_first2.jpg";
+import first from "../../images/CV.jpg";
 
-const ButtonFirst = () => {
+const ButtonCv = () => {
   return (
-    <Link to={"/First"} className="Link">
       <Card className="button">
         <Card.Img variant="top" src={first} />
         <Card.Body>
-          <Card.Title>Projet Dice</Card.Title>
+          <Card.Title>Ce CV</Card.Title>
           <Card.Text></Card.Text>
-          Javascript
+          React, Javascript, JSX
         </Card.Body>
       </Card>
-    </Link>
   );
 };
-export default ButtonFirst;
+export default ButtonCv;

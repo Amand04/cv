@@ -11,7 +11,7 @@ const ButtonSpy = () => {
         <Card.Body>
           <Card.Title>Spy</Card.Title>
           <Card.Text></Card.Text>
-          Php, Symfony, JS...
+          Php, Symfony
         </Card.Body>
       </Card>
     </Link>

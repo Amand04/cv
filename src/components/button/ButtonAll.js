@@ -4,6 +4,7 @@ import ButtonSpy from "./ButtonSpy";
 import ButtonCharlesCantin from "./ButtonCharlesCantin";
 import ButtonBeer from "./ButtonBeer";
 import ButtonFirst from "./ButtonFirst";
+import ButtonCv from "./ButtonCv";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
 
@@ -23,6 +24,7 @@ const ButtonAll = () => {
         <ButtonCharlesCantin />
         <ButtonBeer />
         <ButtonFirst />
+        <ButtonCv />
         </div>
         </>
       );

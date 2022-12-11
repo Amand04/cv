@@ -11,7 +11,7 @@ const Beer = () => {
         <Card.Body>
           <Card.Title>Projet API</Card.Title>
           <Card.Text></Card.Text>
-          Php, Symfony, JS...
+         React, Javascript, JSX
         </Card.Body>
       </Card>
     </Link>

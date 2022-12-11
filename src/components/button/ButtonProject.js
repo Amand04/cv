@@ -10,8 +10,7 @@ const ButtonProject = () => {
         <Card.Img variant="top" src={sound} />
         <Card.Body>
           <Card.Title>Mes projets</Card.Title>
-          <Card.Text></Card.Text>
-          Php, Symfony, JS...
+          <Card.Text>Application Web en PHP, Javascript...</Card.Text>
         </Card.Body>
       </Card>
     </Link>

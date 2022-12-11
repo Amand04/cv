@@ -11,7 +11,7 @@ const ButtonCharlesCantin = () => {
         <Card.Body>
           <Card.Title>Projet Charles Cantin</Card.Title>
           <Card.Text></Card.Text>
-          Php, Symfony, JS...
+          Javascript, NJK, CMS Forestry
         </Card.Body>
       </Card>
     </Link>

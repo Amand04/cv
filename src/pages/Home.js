@@ -1,12 +1,12 @@
 import React from "react";
-import ButtonFormation from "../components/button/ButtonFormation";
+import ButtonProfile from "../components/button/ButtonProfile";
 import ButtonProject from "../components/button/ButtonProject";
 
 const Home = () => {
   return (
     <div className="button_div">
       <ButtonProject />
-      <ButtonFormation />
+      <ButtonProfile />
     </div>
   );
 };
