@@ -6,7 +6,6 @@ import { FaArrowRight, FaHome, FaSymfony } from "react-icons/fa";
 import { SiJquery, SiPhp } from "react-icons/si";
 import { DiHeroku } from "react-icons/di";
 import { FiGithub } from "react-icons/fi";
-import { Player } from "video-react";
 import { Link } from "react-router-dom";
 
 export default function ProjectFitness() {
