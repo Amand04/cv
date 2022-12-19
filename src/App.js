@@ -1,5 +1,5 @@
 import "./App.css";
-import background from "./images/cable.jpg";
+import background from "./images/pc.jpg";
 import Header from "./components/Header";
 import Home from "./pages/Home.js";
 import Footer from "./components/Footer";

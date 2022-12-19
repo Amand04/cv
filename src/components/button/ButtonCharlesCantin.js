@@ -1,13 +1,13 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import charles from "../../images/accueil_charles2.jpg";
+import charles from "../../images/accueil_charles3.jpg";
 
 const ButtonCharlesCantin = () => {
   return (
     <Link to={"/CharlesCantin"} className="Link">
       <Card className="button">
-        <Card.Img variant="top" src={charles} />
+        <Card.Img variant="top" src={charles} className="img_project_card"/>
         <Card.Body>
           <Card.Title>Projet Charles Cantin</Card.Title>
           <Card.Text></Card.Text>

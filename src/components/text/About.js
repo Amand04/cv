@@ -9,7 +9,7 @@ const About = () => {
       <Link to={"/"}>
         <FaHome id="home_link" />
       </Link>
-      lorem ipsum
+      Cette page est en cours de construction, merci de votre compréhension.
     </div>
   );
 };
