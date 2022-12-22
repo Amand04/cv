@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import first from "../../images/ecran_first2.jpg";
+import first from "../../images/first.jpg";
 
 const ButtonFirst = () => {
   return (

@@ -216,6 +216,10 @@
   justify-content: space-around;
 }
 
+.img_card {
+  width: 100%;
+}
+
 
 
 .about_text {

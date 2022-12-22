@@ -1,5 +1,5 @@
 import React from "react";
-import fitness from "../../images/login_fitness.jpg";
+import fitness from "../../images/login_fitness3.jpg";
 import fitness2 from "../../images/accueil_fitness.jpg";
 import fitness3 from "../../images/users_fitness.jpg";
 import { FaArrowLeft, FaArrowRight, FaSymfony } from "react-icons/fa";

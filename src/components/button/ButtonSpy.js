@@ -7,7 +7,7 @@ const ButtonSpy = () => {
   return (
     <Link to={"/Spy"} className="Link">
       <Card className="button">
-        <Card.Img variant="top" src={spy} />
+        <Card.Img variant="top" src={spy} className="img_card"/>
         <Card.Body>
           <Card.Title>Spy</Card.Title>
           <Card.Text></Card.Text>
