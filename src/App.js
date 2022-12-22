@@ -13,9 +13,6 @@ import ProjectCharlesCantin from "./components/text/ProjectCharlesCantin";
 import ProjectBeer from "./components/text/ProjectBeer";
 import ProjectFirst from "./components/text/ProjectFirst";
 
-
-
-
 function App() {
   return (
     <>
@@ -24,7 +21,7 @@ function App() {
         style={{
           backgroundImage: `url(${background})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "1500px",
+          backgroundSize: "2000px",
           backgroundPosition: "top",
           width: "100%",
         }}
@@ -41,7 +38,6 @@ function App() {
             <Route path="/charlescantin" element={<ProjectCharlesCantin />} />
             <Route path="/beer" element={<ProjectBeer />} />
             <Route path="/first" element={<ProjectFirst />} />
-
           </Routes>
         </BrowserRouter>
         <Footer />

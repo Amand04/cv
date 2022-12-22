@@ -14,17 +14,17 @@ import { Link } from "react-router-dom";
 
 export default function ProjectCharlesCantin() {
   return (
-    <div className="icons_project_a">
+    <div className="project_a">
       <Link to={"/projects"}>
       <FaArrowLeft id="home_link" />
       </Link>
-      <p>
+      <div className="icons_div">
         <SiJavascript className="icons_project_js" />
         <SiEleventy className="icons_project_sf" />
         <SiForestry className="icons_project_sf" />
         <SiNetlify className="icons_project_php" />
         <FiGithub className="icons_project_sf" />
-      </p>
+      </div>
       <p className="p_seeAplication">
       Site internet Web et mobile d'un photographe fictif, Charles Cantin
       </p>

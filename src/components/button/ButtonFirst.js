@@ -11,7 +11,7 @@ const ButtonFirst = () => {
         <Card.Body>
           <Card.Title>Projet Dice</Card.Title>
           <Card.Text></Card.Text>
-          Javascript
+          Javascript vanillia
         </Card.Body>
       </Card>
     </Link>

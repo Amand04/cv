@@ -1,14 +1,10 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 
 export default function Header() {
   return (
     <div className="Header">
-      <Card className="Header_card">
-        <p className="header_text">Créatrice de sites internet</p>
-        <p className="header_text">Développeuse Web</p>
-        <p className="header_text_name">Amandine DROMARD</p>
-      </Card>
+      <p className="header_text_name">Amandine Dromard</p>
+        <p className="header_text">Développeuse Web Créatrice de sites internet | applications web et web mobile</p>
     </div>
   );
 }

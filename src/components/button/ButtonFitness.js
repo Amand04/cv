@@ -11,7 +11,7 @@ const ButtonFitness = () => {
         <Card.Body>
           <Card.Title>Projet fitness</Card.Title>
           <Card.Text></Card.Text>
-          Php, Symfony
+          Php, Symfony, JQuery
         </Card.Body>
       </Card>
     </Link>

@@ -12,7 +12,7 @@ const ButtonProfile = () => {
           <Card.Body>
             <Card.Title>Ce que je peux vous apporter</Card.Title>
             <Card.Text>
-              Ma bonne humeur, mon professionnalisme, ma rigueur
+            Ma rigueur, mon professionnalisme, ma bonne humeur
             </Card.Text>
           </Card.Body>
         </Card>

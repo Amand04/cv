@@ -9,17 +9,17 @@ import { Link } from "react-router-dom";
 
 export default function ProjectBeer() {
   return (
-    <div className="icons_project_a">
+    <div className="project_a">
       <Link to={"/projects"}>
       <FaArrowLeft id="home_link" />
       </Link>
-      <p>
+      <div className="icons_div">
         <SiJavascript className="icons_project_js" />
         <TbApi className="icons_project" />
         <FaReact className="icons_project" />
         <SiNetlify className="icons_project_php" />
         <FiGithub className="icons_project_sf" />
-      </p>
+      </div>
       <p className="p_seeAplication">
       Application Web et Web mobile avec requêtes d'API
       </p>

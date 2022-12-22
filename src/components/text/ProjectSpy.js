@@ -9,16 +9,16 @@ import { Link } from "react-router-dom";
 
 export default function ProjectSpy() {
   return (
-      <div className="icons_project_a">
+      <div className="project_a">
         <Link to={"/projects"}>
           <FaArrowLeft id="home_link" />
         </Link>
-        <p>
-          <FaSymfony className="icons_project_sf" />
+        <div className="icons_div">
+        <FaSymfony className="icons_project_sf" />
           <SiPhp className="icons_project_php" />
           <DiHeroku className="icons_project_heroku" />
           <FiGithub className="icons_project_sf" />
-        </p>
+        </div>
         <p className="p_seeAplication">
           Application Web et mobile d'une Agence fictive d'espionnage
         </p>

@@ -15,14 +15,14 @@ export default function ProjectFitness() {
     <FaArrowLeft id="home_link" />
   </Link>
 
-    <div className="icons_project_a">
-      <p>
+    <div className="project_a">
+      <div className="icons_div">
         <FaSymfony className="icons_project_sf" />
         <SiPhp className="icons_project_php" />
         <SiJquery className="icons_project_jquery" />
         <DiHeroku className="icons_project_heroku" />
         <FiGithub className="icons_project_sf" />
-      </p>
+      </div>
       <p className="p_seeAplication">
       Application Web et mobile de gestion de droits des franchisés pour une
       marque de salles de sport
