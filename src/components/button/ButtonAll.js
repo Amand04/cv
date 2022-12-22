@@ -10,10 +10,12 @@ import { FaHome } from "react-icons/fa";
 const ButtonAll = () => {
   return (
     <>
-      <div className="button_div">
+     <div>
         <Link to={"/"}>
           <FaHome id="home_link" />
         </Link>
+        </div>
+        <div className="button_div">
         <ButtonFitness />
         <ButtonSpy />
         <ButtonCharlesCantin />
