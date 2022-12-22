@@ -16,15 +16,21 @@ const ButtonAll = () => {
         </Link>
       </div>
       <div className="button_div">
+      <div>
         <ButtonFitness />
-
+        </div>
+        <div>
         <ButtonSpy />
-
+        </div>
+        <div>
         <ButtonCharlesCantin />
-
+        </div>
+        <div>
         <ButtonBeer />
-
+        </div>
+        <div>
         <ButtonFirst />
+        </div>
       </div>
     </>
   );

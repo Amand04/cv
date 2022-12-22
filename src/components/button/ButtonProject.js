@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import sound from "../../images/sound.jpg";
+import sound from "../../images/mobile.jpg";
 
 const ButtonProject = () => {
   return (
@@ -11,7 +11,7 @@ const ButtonProject = () => {
       <Card className="button">
         <Card.Img variant="top" src={sound} />
         <Card.Body>
-          <Card.Title>Mes projets</Card.Title>
+          <Card.Title>Mes réalisations</Card.Title>
           <Card.Text>Application Web en PHP, Javascript...</Card.Text>
         </Card.Body>
       </Card>

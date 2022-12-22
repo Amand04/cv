@@ -1,4 +1,5 @@
 import charles from "../../images/accueil_charles.jpg";
+import charles1 from "../../images/galerie_charles.jpg";
 import charles2 from "../../images/menu_charles.jpg";
 import charles3 from "../../images/contact_charles.jpg";
 import { FiGithub } from "react-icons/fi";
@@ -31,6 +32,7 @@ export default function ProjectCharlesCantin() {
       <div className="img_div">
         <img src={charles} alt="project" className="img_app" />
         <img src={charles2} alt="project" className="img_app" />
+        <img src={charles1} alt="project" className="img_app" />
         <img src={charles3} alt="project" className="img_app" />
       </div>
       <p className="p_seeAplication">Voir l'application</p>

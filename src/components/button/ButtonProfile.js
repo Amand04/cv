@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import office from "../../images/office.jpg";
+import office from "../../images/face.jpg";
 
 const ButtonProfile = () => {
   return (
