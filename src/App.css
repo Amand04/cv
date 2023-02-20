@@ -47,6 +47,13 @@
   margin: 1000px;
 }
 
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: space-around;
+}
+
 .button {
   width: 20rem;
   height: 500px;
@@ -220,12 +227,9 @@
   width: 100%;
 }
 
-
-
 .about_text {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-
 
 .p_seeAplication {
   margin-top: 25px;
@@ -233,7 +237,6 @@ margin-bottom: 50px;
 }
 
 @media screen and (max-width: 700px) {
-
   .Header {
     margin-bottom: 5px;
   }
@@ -244,8 +247,6 @@ margin-bottom: 50px;
   .header_text_name {
     display: block;
   }
-
-
 
   #home_link {
     width: 55px;
