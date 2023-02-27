@@ -136,6 +136,12 @@
   margin-top: 15px;
 }
 
+.Footer_text_AD {
+  font-size: 28px;
+  margin: 10px;
+  font-family: "Dancing Script", cursive;
+}
+
 .Footer_text {
   font-size: 16px;
   margin: 10px;
