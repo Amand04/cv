@@ -7,11 +7,13 @@ const ButtonSpy = () => {
   return (
     <Link to={"/Spy"} className="Link">
       <Card className="button">
-        <Card.Img variant="top" src={spy} className="img_card"/>
+        <Card.Img variant="top" src={spy} className="img_card" />
         <Card.Body>
-          <Card.Title>Spy</Card.Title>
+          <Card.Title className="card_profil_text">
+            Application web et mobile d'une agence
+          </Card.Title>
           <Card.Text></Card.Text>
-          Php, Symfony
+          Application permettant la gestion de l'organisation
         </Card.Body>
       </Card>
     </Link>

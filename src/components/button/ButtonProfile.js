@@ -10,10 +10,8 @@ const ButtonProfile = () => {
         <Card className="button">
           <Card.Img variant="top" src={office} />
           <Card.Body>
-            <Card.Title>Ce que je peux vous apporter</Card.Title>
-            <Card.Text>
-            Ma rigueur, mon professionnalisme, ma bonne humeur
-            </Card.Text>
+            <Card.Title className="card_profil_title">Mes services</Card.Title>
+            <Card.Text></Card.Text>
           </Card.Body>
         </Card>
       </Link>

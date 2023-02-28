@@ -24,8 +24,8 @@ export default function ProjectFitness() {
           <FiGithub className="icons_project_sf" />
         </div>
         <p className="p_seeAplication">
-          Application Web et mobile de gestion de droits des franchisés pour une
-          marque de salles de sport
+          Application Web et mobile permettant de gérer les droits des
+          partenaires franchisés, salles de sport
         </p>
         <div className="img_div">
           <img src={fitness} alt="project" className="img_app" />

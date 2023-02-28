@@ -54,6 +54,17 @@
   justify-content: space-around;
 }
 
+.card_profil_title {
+  margin-top: 65px;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+.card_profil_text {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
 .button {
   width: 20rem;
   height: 500px;

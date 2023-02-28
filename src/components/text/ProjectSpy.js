@@ -20,7 +20,7 @@ export default function ProjectSpy() {
         <FiGithub className="icons_project_sf" />
       </div>
       <p className="p_seeAplication">
-        Application Web et mobile d'une Agence fictive d'espionnage
+        Application web et mobile permettant la gestion de l'organisation
       </p>
       <div className="img_div">
         <img src={spy} alt="project" className="img_app" />

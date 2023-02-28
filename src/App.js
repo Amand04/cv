@@ -11,7 +11,6 @@ import ProjectFitness from "./components/text/ProjectFitness";
 import ProjectSpy from "./components/text/ProjectSpy";
 import ProjectCharlesCantin from "./components/text/ProjectCharlesCantin";
 import ProjectBeer from "./components/text/ProjectBeer";
-import ProjectFirst from "./components/text/ProjectFirst";
 
 function App() {
   return (
@@ -37,7 +36,6 @@ function App() {
             <Route path="/spy" element={<ProjectSpy />} />
             <Route path="/charlescantin" element={<ProjectCharlesCantin />} />
             <Route path="/beer" element={<ProjectBeer />} />
-            <Route path="/first" element={<ProjectFirst />} />
           </Routes>
         </BrowserRouter>
         <Footer />

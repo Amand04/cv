@@ -5,8 +5,8 @@ import ButtonProject from "../components/button/ButtonProject";
 const Home = () => {
   return (
     <div className="button_div">
-      <ButtonProject />
       <ButtonProfile />
+      <ButtonProject />
     </div>
   );
 };

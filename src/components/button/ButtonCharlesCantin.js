@@ -7,11 +7,14 @@ const ButtonCharlesCantin = () => {
   return (
     <Link to={"/CharlesCantin"} className="Link">
       <Card className="button">
-        <Card.Img variant="top" src={charles}  className="img_card"/>
+        <Card.Img variant="top" src={charles} className="img_card" />
         <Card.Body>
-          <Card.Title>Projet Charles Cantin</Card.Title>
+          <Card.Title className="card_profil_text">
+            Site internet Web et mobile d'un photographe professionnel, Charles
+            Cantin
+          </Card.Title>
           <Card.Text></Card.Text>
-          Javascript, NJK, CMS Forestry
+          Présentation de ses prestations
         </Card.Body>
       </Card>
     </Link>

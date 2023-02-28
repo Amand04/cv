@@ -10,14 +10,14 @@ import {
   SiNetlify,
   SiJavascript,
 } from "react-icons/si";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function ProjectCharlesCantin() {
   return (
     <div className="project_a">
       <Link to={"/projects"}>
-      <FaArrowLeft id="home_link" />
+        <FaArrowLeft id="home_link" />
       </Link>
       <div className="icons_div">
         <SiJavascript className="icons_project_js" />
@@ -27,7 +27,8 @@ export default function ProjectCharlesCantin() {
         <FiGithub className="icons_project_sf" />
       </div>
       <p className="p_seeAplication">
-      Site internet Web et mobile d'un photographe fictif, Charles Cantin
+        Site internet Web et mobile d'un photographe professionnel, Charles
+        Cantin
       </p>
       <div className="img_div">
         <img src={charles} alt="project" className="img_app" />
@@ -35,10 +36,6 @@ export default function ProjectCharlesCantin() {
         <img src={charles1} alt="project" className="img_app" />
         <img src={charles3} alt="project" className="img_app" />
       </div>
-      <p className="p_seeAplication">Voir l'application</p>
-      <a href="https://charles-cantin-photograph.netlify.app/" className="Link">
-        <FaArrowRight id="site_link" />
-      </a>
     </div>
   );
 }

@@ -16,7 +16,8 @@ const About = () => {
       </p>
       <p className="about_text">
         Sites internet - Sites e-commerce (boutiques) - Sites WordPress -
-        Maintenance - Applications web et web mobile.
+        Maintenance - Référencement - Assistance - Applications web et web
+        mobile.
       </p>
       <p className="about_text">
         Pour plus de renseignements, je vous invite à me contacter au

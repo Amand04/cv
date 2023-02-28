@@ -9,9 +9,11 @@ const Beer = () => {
       <Card className="button">
         <Card.Img variant="top" src={beer} />
         <Card.Body>
-          <Card.Title>Projet API</Card.Title>
+          <Card.Title className="card_profil_text">
+            Site internet Web et mobile d'une Brasserie
+          </Card.Title>
           <Card.Text></Card.Text>
-         React, Javascript, JSX
+          Présentation de la collection
         </Card.Body>
       </Card>
     </Link>

@@ -6,16 +6,17 @@ import sound from "../../images/mobile.jpg";
 const ButtonProject = () => {
   return (
     <div className="button_div">
-
-    <Link to={"/projects"} className="Link">
-      <Card className="button">
-        <Card.Img variant="top" src={sound} />
-        <Card.Body>
-          <Card.Title>Mes réalisations</Card.Title>
-          <Card.Text>Application Web en PHP, Javascript...</Card.Text>
-        </Card.Body>
-      </Card>
-    </Link>
+      <Link to={"/projects"} className="Link">
+        <Card className="button">
+          <Card.Img variant="top" src={sound} />
+          <Card.Body>
+            <Card.Title className="card_profil_title">
+              Mes réalisations
+            </Card.Title>
+            <Card.Text></Card.Text>
+          </Card.Body>
+        </Card>
+      </Link>
     </div>
   );
 };
