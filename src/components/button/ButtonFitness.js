@@ -5,7 +5,7 @@ import fitness from "../../images/login_fitness.jpg";
 
 const ButtonFitness = () => {
   return (
-    <Link to={"/Fitness"} className="Link" reloadDocument>
+    <Link to={"/Fitness"} className="Link">
       <Card className="button">
         <Card.Img variant="top" src={fitness} className="img_card" />
         <Card.Body>

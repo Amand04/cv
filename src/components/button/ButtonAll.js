@@ -9,7 +9,7 @@ import { FaHome } from "react-icons/fa";
 const ButtonAll = () => {
   return (
     <div className="div_scroll">
-      <Link to={"/"} reloadDocument>
+      <Link to={"/"}>
         <FaHome id="home_link" />
       </Link>
 
