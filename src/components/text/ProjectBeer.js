@@ -9,23 +9,25 @@ import { Link } from "react-router-dom";
 
 export default function ProjectBeer() {
   return (
-    <div className="project_a">
-      <Link to={"/projects"}>
-        <FaArrowLeft id="home_link" />
-      </Link>
-      <div className="icons_div">
-        <SiJavascript className="icons_project_js" />
-        <TbApi className="icons_project" />
-        <FaReact className="icons_project" />
-        <SiNetlify className="icons_project_php" />
-        <FiGithub className="icons_project_sf" />
+    <>
+      <div className="project_a">
+        <Link to={"/projects"} reloadDocument>
+          <FaArrowLeft id="home_link" />
+        </Link>
+        <div className="icons_div">
+          <SiJavascript className="icons_project_js" />
+          <TbApi className="icons_project" />
+          <FaReact className="icons_project" />
+          <SiNetlify className="icons_project_php" />
+          <FiGithub className="icons_project_sf" />
+        </div>
+        <p className="p_seeAplication">Site internet d'une Brasserie</p>
+        <div className="img_div">
+          <img src={beer} alt="project" className="img_app" />
+          <img src={beer2} alt="project" className="img_app" />
+          <img src={beer3} alt="project" className="img_app" />
+        </div>
       </div>
-      <p className="p_seeAplication">Site internet d'une Brasserie</p>
-      <div className="img_div">
-        <img src={beer} alt="project" className="img_app" />
-        <img src={beer2} alt="project" className="img_app" />
-        <img src={beer3} alt="project" className="img_app" />
-      </div>
-    </div>
+    </>
   );
 }

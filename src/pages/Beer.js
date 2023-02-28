@@ -1,10 +1,7 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import sound from "../../images/sound.jpg";
+import ProjectBeer from "../components/text/ProjectBeer";
 
 const Beer = () => {
-  return (
-   <ProjectBeer />
-  );
+  return <ProjectBeer />;
 };
 export default Beer;

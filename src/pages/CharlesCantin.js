@@ -1,10 +1,11 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import sound from "../../images/sound.jpg";
+import ProjectCharlesCantin from "../components/text/ProjectCharlesCantin";
 
 const CharlesCantin = () => {
   return (
-   <ProjectCharlesCantin />
+    <div>
+      <ProjectCharlesCantin />
+    </div>
   );
 };
 export default CharlesCantin;

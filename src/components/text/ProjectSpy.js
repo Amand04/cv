@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function ProjectSpy() {
   return (
     <div className="project_a">
-      <Link to={"/projects"}>
+      <Link to={"/projects"} reloadDocument>
         <FaArrowLeft id="home_link" />
       </Link>
       <div className="icons_div">

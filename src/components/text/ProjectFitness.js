@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export default function ProjectFitness() {
   return (
     <>
-      <Link to={"/projects"}>
+      <Link to={"/projects"} reloadDocument>
         <FaArrowLeft id="home_link" />
       </Link>
 

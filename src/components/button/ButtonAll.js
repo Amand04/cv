@@ -8,8 +8,8 @@ import { FaHome } from "react-icons/fa";
 
 const ButtonAll = () => {
   return (
-    <>
-      <Link to={"/"}>
+    <div className="div_scroll">
+      <Link to={"/"} reloadDocument>
         <FaHome id="home_link" />
       </Link>
 
@@ -27,7 +27,7 @@ const ButtonAll = () => {
           <ButtonBeer />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

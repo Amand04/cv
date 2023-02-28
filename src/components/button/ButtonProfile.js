@@ -6,7 +6,7 @@ import office from "../../images/face.jpg";
 const ButtonProfile = () => {
   return (
     <div className="button_div">
-      <Link to={"/profil"} className="Link">
+      <Link to={"/profil"} className="Link" reloadDocument>
         <Card className="button">
           <Card.Img variant="top" src={office} />
           <Card.Body>

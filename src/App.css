@@ -7,6 +7,12 @@
   font-size: 20px;
   background-color: #000000;
   color: #fcfcfb;
+
+  scroll-margin-top: 0px;
+}
+
+.div_scroll {
+  overflow-y: scroll;
 }
 
 .Header {
@@ -73,7 +79,6 @@
   -webkit-text-stroke-color: rgb(177, 90, 199);
   border-radius: 15px;
   margin: 0.5rem;
-  font-family: "Rubik", sans-serif, 400;
   font-size: 18px;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -216,6 +221,7 @@
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: scroll;
 }
 
 .icons_project_heroku {

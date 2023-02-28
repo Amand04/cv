@@ -5,7 +5,7 @@ import charles from "../../images/accueil_charles2.jpg";
 
 const ButtonCharlesCantin = () => {
   return (
-    <Link to={"/CharlesCantin"} className="Link">
+    <Link to={"/CharlesCantin"} className="Link" reloadDocument>
       <Card className="button">
         <Card.Img variant="top" src={charles} className="img_card" />
         <Card.Body>
