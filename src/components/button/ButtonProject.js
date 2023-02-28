@@ -6,7 +6,7 @@ import sound from "../../images/mobile.jpg";
 const ButtonProject = () => {
   return (
     <div className="button_div">
-      <Link to={"/projects"} className="Link" reloadDocument>
+      <Link to={"/projects"} className="Link">
         <Card className="button">
           <Card.Img variant="top" src={sound} />
           <Card.Body>

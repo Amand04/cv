@@ -1,10 +1,7 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import sound from "../../images/sound.jpg";
+import ProjectSpy from "../components/text/ProjectSpy";
 
 const Spy = () => {
-  return (
-   <ProjectSpy />
-  );
+  return <ProjectSpy />;
 };
 export default Spy;
