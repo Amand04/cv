@@ -7,12 +7,6 @@
   font-size: 20px;
   background-color: #000000;
   color: #fcfcfb;
-
-  scroll-margin-top: 0px;
-}
-
-.div_scroll {
-  overflow-y: scroll;
 }
 
 .Header {
