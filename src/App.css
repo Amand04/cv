@@ -1,5 +1,4 @@
 .App {
-  font-family: "Roboto", sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -63,6 +62,11 @@
 .card_profil_text {
   font-family: "Dancing Script", cursive;
   font-size: 35px;
+}
+
+.card_profil_text_explain {
+  font-family: "Roboto", sans-serif;
+  margin-top: 35px;
 }
 
 .button {
@@ -244,6 +248,7 @@
 }
 
 .about_text {
+  font-family: "Roboto", sans-serif;
   margin-bottom: 50px;
 }
 

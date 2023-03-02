@@ -12,9 +12,11 @@ const ButtonFitness = () => {
           <Card.Title className="card_profil_text">
             Application web et mobile d'une franchise
           </Card.Title>
-          <Card.Text></Card.Text>
-          Application permettant de gérer les droits des partenaires franchisés,
-          salles de sport
+          <Card.Text className="card_profil_text_explain">
+            {" "}
+            Application permettant de gérer les droits des partenaires
+            franchisés, salles de sport
+          </Card.Text>
         </Card.Body>
       </Card>
     </Link>

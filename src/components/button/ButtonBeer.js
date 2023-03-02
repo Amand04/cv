@@ -12,8 +12,9 @@ const Beer = () => {
           <Card.Title className="card_profil_text">
             Site internet Web et mobile d'une Brasserie
           </Card.Title>
-          <Card.Text></Card.Text>
-          Présentation de la collection
+          <Card.Text className="card_profil_text_explain">
+            Présentation de la collection
+          </Card.Text>
         </Card.Body>
       </Card>
     </Link>

@@ -13,8 +13,9 @@ const ButtonCharlesCantin = () => {
             Site internet Web et mobile d'un photographe professionnel, Charles
             Cantin
           </Card.Title>
-          <Card.Text></Card.Text>
-          Présentation de ses prestations
+          <Card.Text className="card_profil_text_explain">
+            Présentation de ses prestations
+          </Card.Text>
         </Card.Body>
       </Card>
     </Link>

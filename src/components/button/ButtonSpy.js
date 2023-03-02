@@ -12,8 +12,10 @@ const ButtonSpy = () => {
           <Card.Title className="card_profil_text">
             Application web et mobile d'une agence
           </Card.Title>
-          <Card.Text></Card.Text>
-          Application permettant la gestion de l'organisation
+          <Card.Text className="card_profil_text_explain">
+            {" "}
+            Application permettant la gestion de l'organisation
+          </Card.Text>
         </Card.Body>
       </Card>
     </Link>
