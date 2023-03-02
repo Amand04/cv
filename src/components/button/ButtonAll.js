@@ -12,7 +12,6 @@ const ButtonAll = () => {
       <Link to={"/"}>
         <FaHome id="home_link" />
       </Link>
-
       <div className="button_div">
         <div>
           <ButtonFitness />
